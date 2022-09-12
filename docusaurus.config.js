@@ -9,7 +9,7 @@ const config = {
   title: '小葱的个人博客',
   tagline: '我要在我的身上克服整个时代，我不可能把一生荒废在俗套的生活里！',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/xiaocong-website/build/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',

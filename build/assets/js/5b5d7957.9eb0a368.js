@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkxiaocong_website=self.webpackChunkxiaocong_website||[]).push([[1120],{8098:e=>{e.exports=JSON.parse('{"permalink":"/xiaocong-website/build/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

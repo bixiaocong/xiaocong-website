@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkxiaocong_website=self.webpackChunkxiaocong_website||[]).push([[3841],{6873:e=>{e.exports=JSON.parse('{"label":"hola","permalink":"/xiaocong-website/build/blog/tags/hola","allTagsPath":"/xiaocong-website/build/blog/tags","count":1}')}}]);

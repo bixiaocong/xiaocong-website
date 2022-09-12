@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkxiaocong_website=self.webpackChunkxiaocong_website||[]).push([[9241],{839:e=>{e.exports=JSON.parse('{"permalink":"/xiaocong-website/build/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
