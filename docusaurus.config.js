@@ -3,13 +3,12 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '小葱的个人博客',
   tagline: '我要在我的身上克服整个时代，我不可能把一生荒废在俗套的生活里！',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/xiaocong-website/build/',
+  baseUrl: process.env.NODE_ENV === 'development' ? '/' : '/xiaocong-website/build/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -58,21 +57,21 @@ const config = {
         title: '小葱',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/1.jpeg',
+          src: '/img/1.jpeg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: '推荐电影',
-          },
-          {to: '/blog', label: '推荐电视剧', position: 'left'},
-          {to: '/blog', label: '推荐书籍', position: 'left'},
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: '推荐电影',
+          // },
+          // {to: '/blog', label: '推荐电视剧', position: 'left'},
+          // {to: '/blog', label: '推荐书籍', position: 'left'},
           {to: '/docs/board-game/recommendation1', label: '推荐桌游', position: 'left'},
-          {to: '/blog', label: '推荐博客', position: 'left'},
-          {to: '/blog', label: '推荐音乐', position: 'left'},
-          {to: '/blog', label: '推荐up主', position: 'left'},
+          // {to: '/blog', label: '推荐博客', position: 'left'},
+          // {to: '/blog', label: '推荐音乐', position: 'left'},
+          // {to: '/blog', label: '推荐up主', position: 'left'},
           {to: '/docs/my-opinion/to-my-34', label: '我的思考', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',

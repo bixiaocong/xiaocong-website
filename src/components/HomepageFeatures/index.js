@@ -16,7 +16,7 @@ import styles from './styles.module.css';
 //       </div>
 //     </div>
 //   );
-}
+//}
 
 export default function HomepageFeatures() {
   return (
