@@ -69,62 +69,69 @@ const config = {
           // {to: '/blog', label: '推荐电视剧', position: 'left'},
           // {to: '/blog', label: '推荐书籍', position: 'left'},
           {to: '/docs/board-game/recommendation1', label: '推荐桌游', position: 'left'},
+          {to: '/docs/reading/', label: '推荐书籍', position: 'left'},
           // {to: '/blog', label: '推荐博客', position: 'left'},
           // {to: '/blog', label: '推荐音乐', position: 'left'},
           // {to: '/blog', label: '推荐up主', position: 'left'},
           {to: '/docs/my-opinion/to-my-34', label: '我的思考', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // {
+          //   href: 'https://github.com/facebook/docusaurus',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
+
         ],
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        logo: {
+          src: '/img/1.png'
+        }
       },
+      //   style: 'dark',
+      //   links: [
+      //     {
+      //       title: 'Docs',
+      //       items: [
+      //         {
+      //           label: 'Tutorial',
+      //           to: '/docs/intro',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: 'Community',
+      //       items: [
+      //         {
+      //           label: 'Stack Overflow',
+      //           href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+      //         },
+      //         {
+      //           label: 'Discord',
+      //           href: 'https://discordapp.com/invite/docusaurus',
+      //         },
+      //         {
+      //           label: 'Twitter',
+      //           href: 'https://twitter.com/docusaurus',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: 'More',
+      //       items: [
+      //         {
+      //           label: 'Blog',
+      //           to: '/blog',
+      //         },
+      //         {
+      //           label: 'GitHub',
+      //           href: 'https://github.com/facebook/docusaurus',
+      //         },
+      //       ],
+      //     },
+      //   ],
+      //   copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      // },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

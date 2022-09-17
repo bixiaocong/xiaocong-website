@@ -27,7 +27,8 @@ const sidebars = {
   ],
    */
   opinionSidebar: ['my-opinion/to-my-34'],
-  boardGameBar: ['board-game/recommendation1', 'board-game/recommendation2']
+  boardGameBar: ['board-game/recommendation1', 'board-game/recommendation2'],
+  readSidebar: ['reading/reading']
 };
 
 module.exports = sidebars;
