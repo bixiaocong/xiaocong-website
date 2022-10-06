@@ -28,7 +28,8 @@ const sidebars = {
    */
   opinionSidebar: ['my-opinion/to-my-34'],
   boardGameBar: ['board-game/recommendation1', 'board-game/recommendation2'],
-  readSidebar: ['reading/reading', 'reading/TheMoonandSixpence']
+  readSidebar: ['reading/reading', 'reading/TheMoonandSixpence'],
+  podcastSidebar: ['podcast/recommend']
 };
 
 module.exports = sidebars;

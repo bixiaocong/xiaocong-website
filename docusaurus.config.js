@@ -70,6 +70,7 @@ const config = {
           // {to: '/blog', label: '推荐书籍', position: 'left'},
           {to: '/docs/board-game/recommendation1', label: '推荐桌游', position: 'left'},
           {to: '/docs/reading/', label: '推荐书籍', position: 'left'},
+          {to: '/docs/podcast/recommend', label: '推荐播客', position: 'left'},
           // {to: '/blog', label: '推荐博客', position: 'left'},
           // {to: '/blog', label: '推荐音乐', position: 'left'},
           // {to: '/blog', label: '推荐up主', position: 'left'},
