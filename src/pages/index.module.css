@@ -33,3 +33,9 @@ p img {
   width: 40%;
   margin-left: 30%;
 }
+li {
+  line-height: 2;
+}
+li a {
+  font-size: 18px;
+}
