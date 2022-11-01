@@ -28,8 +28,8 @@ const sidebars = {
    */
   opinionSidebar: ['my-opinion/to-my-34'],
   boardGameBar: ['board-game/recommendation1', 'board-game/recommendation2'],
-  readSidebar: ['reading/reading', 'reading/TheMoonandSixpence'],
-  podcastSidebar: ['podcast/recommend', 'podcast/culture']
+  readSidebar: ['reading/reading', 'reading/TheMoonandSixpence', 'reading/Frog'],
+  podcastSidebar: ['podcast/recommend', 'podcast/culture', 'podcast/comedy', 'podcast/invest']
 };
 
 module.exports = sidebars;
