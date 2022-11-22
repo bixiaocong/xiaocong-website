@@ -74,6 +74,7 @@ const config = {
           // {to: '/blog', label: '推荐博客', position: 'left'},
           // {to: '/blog', label: '推荐音乐', position: 'left'},
           // {to: '/blog', label: '推荐up主', position: 'left'},
+          {to: '/docs/movie/', label: '电影推荐', position: 'left'},
           {to: '/docs/my-opinion/to-my-34', label: '我的思考', position: 'left'},
           // {
           //   href: 'https://github.com/facebook/docusaurus',
