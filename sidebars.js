@@ -26,7 +26,7 @@ const sidebars = {
     },
   ],
    */
-  opinionSidebar: ['my-opinion/to-my-34', 'my-opinion/move'],
+  opinionSidebar: ['my-opinion/to-my-34', 'my-opinion/move', 'my-opinion/2022Review'],
   boardGameBar: ['board-game/recommendation1', 'board-game/recommendation2'],
   readSidebar: ['reading/reading', 'reading/TheMoonandSixpence', 'reading/Frog', 'reading/2022Booklist'],
   podcastSidebar: ['podcast/recommend', 'podcast/culture', 'podcast/comedy', 'podcast/invest'],
