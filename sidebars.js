@@ -30,7 +30,8 @@ const sidebars = {
   boardGameBar: ['board-game/recommendation1', 'board-game/recommendation2'],
   readSidebar: ['reading/reading', 'reading/TheMoonandSixpence', 'reading/Frog', 'reading/2022Booklist'],
   podcastSidebar: ['podcast/recommend', 'podcast/culture', 'podcast/comedy', 'podcast/invest'],
-  movieSidebar: ['movie/index', 'movie/Parasite']
+  movieSidebar: ['movie/index', 'movie/Parasite'],
+  investSidebar: ['invest/card']
 };
 
 module.exports = sidebars;
