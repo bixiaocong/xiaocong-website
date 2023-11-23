@@ -76,7 +76,6 @@ const config = {
           // {to: '/blog', label: '推荐up主', position: 'left'},
           {to: '/docs/movie/', label: '电影推荐', position: 'left'},
           {to: '/docs/my-opinion/to-my-34', label: '我的思考', position: 'left'},
-          {to: '/docs/my-opinion/to-my-35', label: '我的思考', position: 'left'},
           {to: '/docs/learning/photography', label: '学习', position: 'left'},
           {to: '/docs/invest/card', label: '投资笔记',  position: 'left'}
           // {
